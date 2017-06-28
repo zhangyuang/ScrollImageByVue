@@ -1,0 +1,2 @@
+# ScrollImageByVue
+借助vue的transition标签实现的图片滑动效果
