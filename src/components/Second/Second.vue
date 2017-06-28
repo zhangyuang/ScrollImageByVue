@@ -25,12 +25,7 @@ export default {
       }
     },
     mounted () { 
-      setTimeout(function () {
-        goldlog.setPageSPM(null, 'qiqu2')
-        let checksum = 'a2s0h.' + 'qiqu2'
-        checksum = util.checksum(checksum)
-        goldlog.sendPV({ pageid: "", checksum: checksum })
-      },2000)
+      
     },
     methods: {
      

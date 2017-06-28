@@ -28,13 +28,6 @@ export default {
     }
   },
   mounted () {
-    require.ensure([], function (require) {
-            require('../public/utp-jssdk.js')
-            require('../public/aplus_v2.js')
-    },'ucsdk')//懒加载sdk
-    let index = document.getElementById('index')
-    let second = document.getElementById('second')
-    let third = document.getElementById('third')
     if (router.history.current.path == '/') {
       index.style.backgroundColor = '#fb8935'
     }
