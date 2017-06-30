@@ -17,7 +17,7 @@
 </template>
 
 <script type="text/babel">
-import util from '../../../public/util'
+
 export default {
     data () {
       return {
